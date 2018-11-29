@@ -2,6 +2,8 @@
 
 > A website for the SC2 Banshee clan
 
+UNDER CONSTRUCTION AS OF TODAY
+
 ## Build Setup
 
 ``` bash

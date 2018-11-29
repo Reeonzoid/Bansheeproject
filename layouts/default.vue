@@ -13,11 +13,10 @@
 </template>
 
 <script>
-import Vue from 'vue';
+export default {
 
-var menulist = new Vue({
-  el: '#nav-list',
-  data: {
+data () {
+  return {
     items: [
       {message: 'About us'},
       {message: 'Tournaments'},
@@ -25,6 +24,10 @@ var menulist = new Vue({
       {message: 'contact'}
     ]
   }
-});
+}
+}
+
+
+
 
 </script>

@@ -44,10 +44,12 @@ module.exports = {
     '~/plugins/vue.js'
   ],
 
+
   /*
   ** Nuxt.js modules
   */
   modules: [
+
   ],
 
   /*
@@ -58,7 +60,6 @@ module.exports = {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
-
     }
   }
 }
