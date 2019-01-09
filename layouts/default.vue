@@ -16,8 +16,9 @@
   </div>
     <nuxt/>
     <footer class="footer__container">
-      <div class="footer_art">Logo & Art made by Grizzly</div>
-      <div class="footer_dev">Website developed by Reeonz</div>
+      <div class="footer_art"><a href="#">Logo & Art made by Grizzly</a></div>
+      <div class="footer_dev"><a href="#">Website developed by Reeonz</a></div>
+      <span class="footer__item">Copyright &copy; 2019 The Banshees SC2</span>
 
 
     </footer>
