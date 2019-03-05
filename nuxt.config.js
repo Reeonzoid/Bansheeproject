@@ -71,4 +71,8 @@ module.exports = {
     });
   }
   }
+
+  router: {
+    base: '/Bansheeproject/'
+  }
 }
