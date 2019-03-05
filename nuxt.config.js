@@ -15,8 +15,8 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Jura|Roboto+Slab'}
-    ]
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Jura|Roboto+Slab'},
+      ]
   },
 
   /*
@@ -60,7 +60,15 @@ module.exports = {
     /*
     ** You can extend webpack config here
     */
-    extend(config, ctx) {
-    }
+   extend: (config) => {
+    const svgRule = config.module.rules.find(rule => rule.test.test('.svg'));
+
+    svgRule.test = /\.(png|jpe?g|gif|webp)$/;
+
+    config.module.rules.push({
+      test: /\.svg$/,
+      loader: 'vue-svg-loader',
+    });
+  }
   }
 }
