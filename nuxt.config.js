@@ -1,5 +1,11 @@
 const pkg = require('./package')
 
+export default {
+  router: {
+    base: '/bansheestest/'
+  }
+}
+
 module.exports = {
   mode: 'universal',
 
@@ -70,6 +76,14 @@ module.exports = {
       loader: 'vue-svg-loader',
     });
   }
+  },
+/* Uncomment the following when using npm *run generate command* so the routing is adjusted to work on GH pages
+
+
+  router: {
+    base: '/basheestest/'
   }
 
+*/
 }
+

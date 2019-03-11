@@ -8,12 +8,12 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
   },
   "dependencies": {
     "cross-env": "^5.2.0",
     "jquery": "^3.3.1",
-    "npm": "^6.4.1",
+    "npm": "^6.9.0",
     "nuxt": "^2.0.0",
     "vue": "^2.5.17"
   },
