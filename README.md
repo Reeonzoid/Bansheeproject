@@ -34,6 +34,7 @@ For detailed explanation on how things work, checkout [Nuxt.js docs](https://nux
 - Update challonge integration for tournament page
 - create mobile design // implement it
 - update link locations
+- add donation button for the tournament
 
 
 
